@@ -1,0 +1,33 @@
+package carro;
+ 
+
+
+public class CarroClasse {
+
+
+    public static void main(String[] args) {
+        
+     Carro carro1 = new Carro();
+     carro1.cor = "Preto";
+     carro1.carga = 100;
+     carro1.marca = "Fiat";
+     carro1.lugares = 2;
+     carro1.ligado = false;
+     carro1.status();
+     carro1.acelerar();
+     
+        System.out.println("=============================================");
+
+        Carro carro2 = new Carro();
+     carro2.cor = "Branco";
+     carro2.carga = 29;
+     carro2.marca = "Chevrolet";
+     carro2.lugares = 2;
+     carro2.ligado = true;
+     carro2.status();
+     carro2.acelerar();
+
+
+    }
+    
+}
